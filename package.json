@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx babel-node ./src/index.js",
+    "play": "npx nodemon -q --exec babel-node ./src/index.js"
   },
   "author": "Igor Kim",
   "license": "ISC",
